@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>ABOUT</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel="stylesheet" type="text/css" href="">
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <link href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" rel="stylesheet" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
+</head>
+<body>
+      <div id="nav">
+        <h1>Kale/d</h1>
+        <p>The goods that keep you coming back for more.</p>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="about">
+     <h2>ABOUT US</h2>
+     <hr>
+
+          <div class="row">
+            <div class="column">
+              <p>Contact Information</p>
+              <p>kald@gmail.com</p>
+              <p>303-000-1234</p>
+         </div>
+            <div class="column">
+              <p>Address</p>
+              <p>2199 S University Blvd, Denver, CO 80208</p>
+            </div>
+            <div class="column">
+              <p>Hours of Operation</p>
+              <p>7AM - 9PM</p>
+            </div>
+          </div>
+                   
+
+     <hr>   
+</div>
+
+          
+
+         <!-- Maps -->
+                  <div id="location">
+                    Your location will go here.
+                  </div>
+
+                  <div id="distance">
+                    Distance from DU will go here.
+                  </div>
+
+                  <div id="map">
+                    OpenStreet Map will go here.
+                  </div>
+                            
+
+    
+
+        <div class="footer">
+          <p>&copy 2019 Kale/d | Denver, Colorado.| University of Denver ICT4510 Final Project</p>
+        </div>
+     
+       
+
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+       <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+         integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+         crossorigin=""></script> 
+        <script src="geolocation.js"></script>
+        <script src="computeDistance.js"></script>
+        <script src="showMapLeaflet.js"></script> 
+        
+</body>
+</html>
+
+
